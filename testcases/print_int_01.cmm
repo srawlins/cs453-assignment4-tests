@@ -1,0 +1,8 @@
+extern void print_int (int n);
+
+void main (void) {
+  print_int(0);
+  print_int(2);
+  print_int(11213);
+  print_int(1073741824);  /* 2^30 */
+}

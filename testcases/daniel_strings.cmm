@@ -1,0 +1,16 @@
+extern void print_int(int k);
+extern void print_string(char k []);
+
+void printNl(void)
+{
+    print_string("\n");
+}
+
+int main(void)
+{
+    print_string("hello, ");
+    printNl();
+    print_string("goodbye!\n");
+
+    return 0;
+}

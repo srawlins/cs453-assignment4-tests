@@ -1,0 +1,10 @@
+#!/bin/bash
+
+TMP=`mktemp /tmp/stdinspim.XXXXXX`
+while read data
+do
+  echo "$data" >> $TMP
+done
+
+spim -file $TMP
+rm $TMP

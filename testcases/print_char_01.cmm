@@ -1,0 +1,8 @@
+extern void print_int(int XXXXXX);
+void main(void) {
+  print_int('c');
+  print_int('h');
+  print_int('a');
+  print_int('r');
+  print_int('s');
+}

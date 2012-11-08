@@ -1,0 +1,5 @@
+extern void print_string(char f[]);
+
+void main(void) {
+  print_string("foo");
+}

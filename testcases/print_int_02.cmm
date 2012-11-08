@@ -1,0 +1,9 @@
+extern void print_int (int x);
+void print1 (int a);
+void print2 (int b);
+void print3 (int a) { print2(a); }
+
+void print2 (int b) { print1(b); }
+void print1 (int a) { print_int(a); }
+
+void main (void) { print3(17); }
