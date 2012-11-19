@@ -1,0 +1,16 @@
+extern void print_string(char n[]);
+
+void main(void) {
+  if (3+2+1 == 1+2+3) print_string("truesies\n");
+  else print_string("nope false\n");
+
+  if (3*3 + 4*4 == 5*5) print_string("3,4,5 are a Pythagorean triplet\n");
+  else print_string("nope false\n");
+
+  if (3*3 + 4*4 == 6*6) print_string("3,4,6 are a Pythagorean triplet\n");
+  else print_string("nope false\n");
+
+  if (5*5 + 12*12 == 13*13) print_string("5,12,13 are a Pythagorean triplet\n");
+  else print_string("nope false\n");
+  return;
+}

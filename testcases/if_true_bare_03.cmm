@@ -1,0 +1,28 @@
+extern void print_string(char n[]);
+
+void main(void) {
+  int a;
+  a=97;
+
+  if ('a'>=97) print_string("truesies\n");
+  if ('a'>=a) print_string("true true\n");
+  if ('b'>=a+1) print_string("binop good\n");
+
+  if ('a'> 97) print_string("truesies\n");
+  if ('a'> a) print_string("true true\n");
+  if ('b'> a+1) print_string("binop good\n");
+
+  if ('a'<=97) print_string("truesies\n");
+  if ('a'<=a) print_string("true true\n");
+  if ('b'<=a+1) print_string("binop good\n");
+
+  if ('a'< 97) print_string("truesies\n");
+  if ('a'< a) print_string("true true\n");
+  if ('b'< a+1) print_string("binop good\n");
+
+  if ('a' != 97) print_string("truesies\n");
+  if ('a' != a) print_string("true true\n");
+  if ('b' != a+1) print_string("binop good\n");
+
+  return;
+}

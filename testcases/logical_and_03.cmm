@@ -1,0 +1,18 @@
+extern void print_string(char n[]);
+extern void print_int(int n);
+
+int a;
+
+int increment(void) {
+  a = a+1;
+  return a;
+}
+
+void main(void) {
+  a = 0;
+  if (increment() == 1 && increment() == 2) print_string("truesies\n");
+  print_int(a); print_string("\n");
+  if (increment() == 1 && increment() == 2) print_string("false\n");
+  print_int(a); print_string("\n");
+  return;
+}

@@ -1,0 +1,13 @@
+extern void print_string(char n[]);
+
+void main(void) {
+  int a;
+
+  if ('a'==97) print_string("truesies\n");
+
+  a=97;
+  if ('a'==a) print_string("true true\n");
+
+  if ('b'==a+1) print_string("binop good\n");
+  return;
+}

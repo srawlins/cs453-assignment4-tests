@@ -1,0 +1,7 @@
+extern void print_string(char n[]);
+
+void main(void) {
+  if (1==2) print_string("truesies\n");
+  else print_string("nope false\n");
+  return;
+}

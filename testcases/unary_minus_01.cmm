@@ -1,0 +1,13 @@
+extern void print_int(int n);
+extern void print_string(char n[]);
+
+void main(void) {
+  print_int (-4);
+  print_string("\n");
+  print_int (2 * -4);
+  print_string("\n");
+  print_int (-4 * -4);
+  print_string("\n");
+  print_int (-8 - -8);
+  print_string("\n");
+}

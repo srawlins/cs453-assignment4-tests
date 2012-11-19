@@ -1,0 +1,17 @@
+extern void print_string(char n[]);
+extern void print_int(int n);
+
+int double(int n) { return n*2; }
+
+void main(void) {
+  print_int (2);
+  print_int (double (2));
+  print_int (double (double (2)));
+  print_int (double (double (double (2))));
+  print_int (double (double (double (double (2)))));
+  print_int (double (double (double (double (double (2))))));
+  print_int (double (double (double (double (double (double (2)))))));
+  print_int (double (double (double (double (double (double (double (2))))))));
+  print_int (double (double (double (double (double (double (double (double (2)))))))));
+  print_string("\n");
+}

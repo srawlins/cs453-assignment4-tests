@@ -1,0 +1,9 @@
+extern void print_string(char n[]);
+
+void main(void) {
+  if (1==1 || 2==2) print_string("truesies\n");
+  if (1==2 || 2==2) print_string("truesies\n");
+  if (1==1 || 1==2) print_string("truesies\n");
+  if (2==1 || 2==1) print_string("bad wrong\n");
+  return;
+}

@@ -1,0 +1,13 @@
+extern void print_string(char n[]);
+extern void print_int(int n);
+
+void main(void) {
+  int x;
+  x = 9;
+  while (x > 0) {
+    print_int(x);
+    x = x-1;
+  }
+  print_string("\n");
+  return;
+}

@@ -1,0 +1,14 @@
+extern void print_int(int n);
+extern void print_string(char n[]);
+
+int add_one(int n) {
+  return n+1;
+}
+
+void main(void) {
+  int x;
+  x = 27;
+  x = add_one(x);
+  print_int(x);
+  print_string("\n");
+}
